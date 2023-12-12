@@ -1,0 +1,48 @@
+body{
+    background: #1abc9c;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+img{
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.archive{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.post-title a{
+    color: white;
+}
+.article-author{
+    width: 50%;
+    float: left;
+}
+.article-created-date{
+    text-align: right;
+}
+.article-image{
+    display: block;
+    width: 200px;
+    margin-left: 0;
+}
+.link{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    right: 470px;
+    top: 180px;
+}
+.article-border{
+    text-align: right;
+}
+.archive-text{
+    width: 960px;
+    text-align: justify;
+}
+.article-created-data{
+    text-align: right;
+}

@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{STATIC_URL}}/static/article.css">
+    <title>{{ post.title }}</title> 
+</head>
+<body>
+    <div class="header">
+        <img src="{{ STATIC_URL }}/static/blog.png" style="height: 100px;"/>
+    </div>
+    <div class="article">
+        <h2 class="post-title">{{ post.title }}</h2>
+        <div class="article-info">
+            <div class="article-author">{{ post.author.username }}</div>
+            <div class="article-created-date">{{ post.created_date }}</div>
+        </div>
+        <pre class="article-text">{{ post.text }}</pre>
+    </div>
+</body>
+</html>
